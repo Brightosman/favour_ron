@@ -3,6 +3,7 @@ import React from 'react'
 import Image from "next/image"; // ✅ Import Image component (if using Next.js)
 import { HelpingHandIcon, DatabaseIcon, BinaryIcon } from 'lucide-react'
 import { motion } from "motion/react"
+import HeroImage from '@/public/favour.jpg'
 
 const Insights = () => {
   const insightsData = [
@@ -10,19 +11,19 @@ const Insights = () => {
       title: "Productivity Enhaancer",
       date: "July 2023",
       icon: HelpingHandIcon,
-      description: "Dynamic visibility tools built to drive engagement",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing ",
     },
     {
       title: "Remote Assistance",
       date: "Oct 2023",
       icon: DatabaseIcon,
-      description: "Professional support for teams operating from remote locations",
+      description: "elit. Consequatur repellendus velits Lorem ipsum dolor sit amet consectetur",
     },
     {
       title: "Digital Marketer",
       date: "Nov 2023",
       icon: BinaryIcon,
-      description: "Professional support for teams operating visually dynamical tools to build and drive optimal social economical engagement ",
+      description: "elit. Consequatur repellendus velits Lorem ipsum dolor sit amet consectetur ",
     }
   ]
 
@@ -59,14 +60,15 @@ const Insights = () => {
         </motion.p>
         <div className='flex items-center space-x-2'>
           <Image 
-            src="https://randomuser.me/api/portraits/men/1.jpg"
+            // src="https://randomuser.me/api/portraits/men/1.jpg"
+            src={HeroImage}
             alt="Industry Insights"
             width={150}  // ✅ Add width and height (required in Next.js)
             height={500}
             className="w-12 h-12 rounded-full border-4" // ✅ Use className instead of class
           />
           <div>
-            <h1 className='font-bold text-lg'>Michael Runner</h1>
+            <h1 className='font-bold text-lg'>Favour Ron</h1>
             <p className='text-sm text-gray-400'>CEO, Founder</p>
           </div>
         </div>
