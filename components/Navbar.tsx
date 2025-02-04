@@ -14,11 +14,11 @@ const Navbar = () => {
           transition={{ delay: 0.4, staggerChildren: 0.1 }}
           className="hidden md:flex items-center space-x-5 text-primary/90" 
         >
-            <motion.li whileHover={{ scale: 1.1}} whileTap={{ delay: 0.95}}><a href="#">Our Wall</a></motion.li>
-            <motion.li whileHover={{ scale: 1.1}} whileTap={{ delay: 0.95}}><a href="#">Our Team</a></motion.li>
-            <motion.li whileHover={{ scale: 1.1}} whileTap={{ delay: 0.95}}><a href="#">Careers</a></motion.li>
-            <motion.li whileHover={{ scale: 1.1}} whileTap={{ delay: 0.95}}><a href="#">About</a></motion.li>
-            <motion.li whileHover={{ scale: 1.1}} whileTap={{ delay: 0.95}}><a href="#">My Wall</a></motion.li>
+            <motion.li whileHover={{ scale: 1.1}} whileTap={{ scale: 0.95}}><a href="#">Our Wall</a></motion.li>
+            <motion.li whileHover={{ scale: 1.1}} whileTap={{ scale: 0.95}}><a href="#">Our Team</a></motion.li>
+            <motion.li whileHover={{ scale: 1.1}} whileTap={{ scale: 0.95}}><a href="#">Careers</a></motion.li>
+            <motion.li whileHover={{ scale: 1.1}} whileTap={{ scale: 0.95}}><a href="#">About</a></motion.li>
+            <motion.li whileHover={{ scale: 1.1}} whileTap={{ scale: 0.95}}><a href="#">My Wall</a></motion.li>
         </motion.ul> 
 
         <Button className="px-5 py-2 border border-primary font-semibold rounded-full" variant={'default'}> Register </Button>
